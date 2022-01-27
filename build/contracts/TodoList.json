@@ -1,0 +1,133 @@
+{
+  "contractName": "TodoList",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/TodoList.sol\":\"TodoList\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/TodoList.sol\":{\"keccak256\":\"0x124c673493becbc67fa7c37d2bb4998a0223baf49767ee71e0dfe238cd3f30f0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://73521988a2fd4f1f6625366a2bf58b2733c96b96504267332efca91ebd3938e3\",\"dweb:/ipfs/QmdJC3ohcCKxFcY35yndJJpRN2z6QoHE2PHLnDT877r4yB\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212206eb12ccff441b83f135c15800d28d4c25edb56fcce5adddc16d38833971ca58564736f6c634300080b0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212206eb12ccff441b83f135c15800d28d4c25edb56fcce5adddc16d38833971ca58564736f6c634300080b0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "69:20:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "69:20:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract TodoList {}\r\n",
+  "sourcePath": "E:\\Projects\\BlockChain\\To Do App\\contracts\\TodoList.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/TodoList.sol",
+    "exportedSymbols": {
+      "TodoList": [
+        35
+      ]
+    },
+    "id": 36,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "TodoList",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35
+        ],
+        "name": "TodoList",
+        "nameLocation": "78:8:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 36,
+        "src": "69:20:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:58:1"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/TodoList.sol",
+    "exportedSymbols": {
+      "TodoList": [
+        35
+      ]
+    },
+    "id": 36,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "TodoList",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35
+        ],
+        "name": "TodoList",
+        "nameLocation": "78:8:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 36,
+        "src": "69:20:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:58:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.11+commit.d7f03943.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x8cea2fb2D986AcC66FDE7E164D892F4926eaD90A",
+      "transactionHash": "0x6e154d64f744116eb36c37b7e33e99cdcb363183e0298fc2132ea40309257668"
+    }
+  },
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-27T10:39:26.289Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
